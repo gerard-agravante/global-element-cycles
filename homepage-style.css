@@ -194,7 +194,6 @@ h1 {
 }
 
 #oxygen:hover #o-button {
-  opacity: 0.75;
   transform: scale(1.2);
 }
 
@@ -207,7 +206,6 @@ h1 {
 }
 
 #nitrogen:hover #n-button {
-  opacity: 0.75;
   transform: scale(1.2);
 }
 
@@ -220,7 +218,6 @@ h1 {
 }
 
 #phosphorus:hover #p-button {
-  opacity: 0.75;
   transform: scale(1.2);
 }
 
@@ -233,7 +230,6 @@ h1 {
 }
 
 #sulfur:hover #s-button {
-  opacity: 0.75;
   transform: scale(1.2);
 }
 
@@ -246,7 +242,6 @@ h1 {
 }
 
 #water:hover #h2o-button {
-  opacity: 0.75;
   transform: scale(1.2);
 }
 
