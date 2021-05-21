@@ -1,36 +1,48 @@
 /* VARIABLES */
 :root {
-  --scolor: #1a0033;
+  --scolor:  #145214;
   --bgcolor: #e6f0ff;
   --fcolor: #000000;
-  --bgtcolor: #e6f0ff;
+  --colpal1: #1e425e;
+  --colpal2: #256670;
+  --colpal3: #ade28a;
+  --colpal4: #edfa8b;
+  --colpal5: #407056;
 }
 
 /* HTML ELEMENTS */
 header {
-  background: var(--scolor);
+  background: var(--colpal2);
   width: 100%;
-  height: 25px;
+  height: 90px;
 }
 
 footer {
   position: absolute;
-  background: var(--scolor);
+  background: var(--colpal2);
   width: 100%;
   height: 25px;
 }
 
 body {
-  background: var(--bgcolor);
+  margin: 0 !important;
+  padding: 0 !important;
+  background: var(--colpal3);
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   font-family: Century Gothic;
 }
 
 /* CLASSES */
+
+.banner {
+  padding: 10px;
+  height: 100%;
+  top: 50%;
+}
 
 .element {
   width: 29%;
@@ -41,18 +53,18 @@ h1 {
 }
 
 .pagetitle {
-  width: 65%;
+  width: 95%;
   height: auto;
   border: 0px;
+  border-bottom: 5px;
   border-style: solid;
-  border-color: var(--scolor);
-  background-color: var(--bgtcolor);
-  padding: 10px;
+  border-color: var(--colpal2);
+  padding-top: 10px;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   color: var(--fcolor);
 }
@@ -68,7 +80,7 @@ h1 {
   margin-right: auto;
   text-align: left;
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Century Gothic;
   color: var(--fcolor);
   text-indent: 75px;
@@ -79,7 +91,7 @@ h1 {
 .table {
   font-family: Century Gothic;
   font-size: 20px;
-  padding: 0px;
+  padding: 10px;
   margin-top: 25px;
   margin-bottom: 25px;
 	margin-left: auto;
@@ -101,31 +113,59 @@ h1 {
 
 .cycles {
   width: 87vw;
-  height: 25vw;
+  height: 35vw;
   border: none;
 }
 
+.tab {
+  font-family: Century Gothic;
+  font-size: 20px;
+  padding: 0px;
+  margin-top: 45px;
+  margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .tabs {
-  width: 100%;
+  width: 95%;
   border-collapse: collapse;
-  height: 50px;
+  border: none;
+  height: 30px;
 }
 
 .e-button {
   border: none;
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
   cursor: pointer;
   margin: 10px;
   width: 100%;
   height: 100%;
 }
 
+.t-button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: var(--colpal5);
+  cursor: pointer;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
 /* ID's */
+
+#banner1 {
+  height: 70%;
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1.0) 75%, transparent 100%);
+}
 
 #pt-main {
   border-style: solid;
-  border-color: var(--scolor);
+  border-color: var(--colpal2);
 }
 
 #c-button {
@@ -194,17 +234,14 @@ h1 {
   opacity: 0.75;
 }
 
-#about {
-  background: #888888;
-  color: #000000;
+#about:hover #a-button {
+  background-color: var(--colpal1);
 }
 
-#others {
-  background: #888888;
-  color: #000000;
+#others:hover #os-button {
+  background-color: var(--colpal1);
 }
 
-#contacts {
-  background: #888888;
-  color: #000000;
+#contacts:hover #cu-button {
+  background-color: var(--colpal1);
 }
