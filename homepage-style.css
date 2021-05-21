@@ -50,8 +50,8 @@ h1 {
   padding: 10px;
   margin-top: 25px;
   margin-bottom: 25px;
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   vertical-align: middle;
   color: var(--fcolor);
@@ -64,8 +64,8 @@ h1 {
   padding: 5px;
   margin-top: 25px;
   margin-bottom: 25px;
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
   vertical-align: middle;
   font-size: 20px;
@@ -116,7 +116,7 @@ h1 {
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  margin: 0px;
+  margin: 10px;
   width: 100%;
   height: 100%;
 }
@@ -129,33 +129,69 @@ h1 {
 }
 
 #c-button {
-  background: #000000;
+  background-image: url("carbon1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: #FFFFFF;
+}
+
+#carbon:hover #c-button {
+  opacity: 0.75;
 }
 
 #o-button {
-  background: #F1F1F1;
-  color: #000000;
+  background-image: url("oxygen1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #FFFFFF;
+}
+
+#oxygen:hover #o-button {
+  opacity: 0.75;
 }
 
 #n-button {
-  background: #008700;
+  background-image: url("nitrogen1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: #FFFFFF;
+}
+
+#nitrogen:hover #n-button {
+  opacity: 0.75;
 }
 
 #p-button {
-  background: #0F0F46;
+  background-image: url("phosphorus1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: #FFFFFF;
+}
+
+#phosphorus:hover #p-button {
+  opacity: 0.75;
 }
 
 #s-button {
-  background: #AAAA00;
-  color: #000000;
+  background-image: url("sulfur1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #FFFFFF;
+}
+
+#sulfur:hover #s-button {
+  opacity: 0.75;
 }
 
 #h2o-button {
-  background: #0030A1;
+  background-image: url("water1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   color: #FFFFFF;
+}
+
+#water:hover #h2o-button {
+  opacity: 0.75;
 }
 
 #about {
