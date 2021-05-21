@@ -27,7 +27,8 @@ footer {
 body {
   margin: 0 !important;
   padding: 0 !important;
-  background: var(--colpal3);
+  background: rgb(193,218,176);
+  background: linear-gradient(180deg, rgba(193,218,176,1) 0%, rgba(193,218,176,0.718987341772152) 35%, rgba(193,218,176,0.5802520837436538) 100%); 
 }
 
 h1 {
@@ -46,6 +47,14 @@ h1 {
 
 .element {
   width: 29%;
+}
+
+.element-row {
+  height: 50%;
+}
+
+.tab-row {
+  height: 100%;
 }
 
 .op {
@@ -174,7 +183,7 @@ h1 {
 }
 
 #c-button {
-  background-image: url("carbon1.jpg");
+  background-image: url("background-main/carbon1.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #FFFFFF;
@@ -186,7 +195,7 @@ h1 {
 }
 
 #o-button {
-  background-image: url("oxygen1.jpg");
+  background-image: url("background-main/oxygen1.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
@@ -198,7 +207,7 @@ h1 {
 }
 
 #n-button {
-  background-image: url("nitrogen1.jpg");
+  background-image: url("background-main/nitrogen1.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
@@ -210,7 +219,7 @@ h1 {
 }
 
 #p-button {
-  background-image: url("phosphorus1.jpg");
+  background-image: url("background-main/phosphorus1.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
@@ -222,7 +231,7 @@ h1 {
 }
 
 #s-button {
-  background-image: url("sulfur1.jpg");
+  background-image: url("background-main/sulfur1.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
@@ -234,7 +243,7 @@ h1 {
 }
 
 #h2o-button {
-  background-image: url("water1.jpg");
+  background-image: url("background-main/water1.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
