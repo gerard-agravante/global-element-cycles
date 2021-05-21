@@ -103,7 +103,7 @@ h1 {
 
 .element {
   border-style: solid;
-  border-width: 0px;
+  border-width: 2px;
   border-color: var(--colpal2);
   background-color: var(--colpal2);
 }
@@ -117,7 +117,7 @@ h1 {
   width: 87vw;
   height: 35vw;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 1px;
   border-color: var(--colpal2);
   background-color: var(--colpal2);
@@ -178,10 +178,11 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #FFFFFF;
+  transition: transform .2s;
 }
 
 #carbon:hover #c-button {
-  opacity: 0.75;
+  transform: scale(1.2);
 }
 
 #o-button {
@@ -189,10 +190,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
+  transition: transform .2s;
 }
 
 #oxygen:hover #o-button {
   opacity: 0.75;
+  transform: scale(1.2);
 }
 
 #n-button {
@@ -200,10 +203,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
+  transition: transform .2s;
 }
 
 #nitrogen:hover #n-button {
   opacity: 0.75;
+  transform: scale(1.2);
 }
 
 #p-button {
@@ -211,10 +216,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
+  transition: transform .2s;
 }
 
 #phosphorus:hover #p-button {
   opacity: 0.75;
+  transform: scale(1.2);
 }
 
 #s-button {
@@ -222,10 +229,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
+  transition: transform .2s;
 }
 
 #sulfur:hover #s-button {
   opacity: 0.75;
+  transform: scale(1.2);
 }
 
 #h2o-button {
@@ -233,10 +242,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100%;
   color: #FFFFFF;
+  transition: transform .2s;
 }
 
 #water:hover #h2o-button {
   opacity: 0.75;
+  transform: scale(1.2);
 }
 
 #about:hover #a-button {
