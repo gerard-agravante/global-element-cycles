@@ -1,0 +1,150 @@
+/* VARIABLES */
+:root {
+  --scolor:  #145214;
+  --bgcolor: #e6f0ff;
+  --fcolor: #000000;
+  --colpal1: #1e425e;
+  --colpal2: #256670;
+  --colpal3: #ade28a;
+  --colpal4: #edfa8b;
+  --colpal5: #407056;
+}
+
+/* HTML ELEMENTS */
+header {
+  background: var(--colpal2);
+  width: 100%;
+  height: 90px;
+  text-align: left;
+}
+
+footer {
+  position: absolute;
+  background: var(--colpal2);
+  width: 100%;
+  height: 25px;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: rgb(163,180,176);
+  background: linear-gradient(90deg, rgba(163,180,176,0.7511379551820728) 0%, rgba(163,180,176,0.4962359943977591) 50%, rgba(163,180,176,0.6026785714285714) 100%);
+  font-family: Century Gothic;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  border-bottom: 5px;
+  border-style: solid;
+  border-color: var(--colpal2);
+  border-right: none;
+  border-top: none;
+  border-left: none;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: var(--colpal2);
+  border-right: none;
+  border-top: none;
+  border-left: none;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.banner {
+  padding: 10px;
+  height: 100%;
+  top: 50%;
+}
+
+.heading {
+  margin-left: 0px;
+  padding: 20px;
+  padding-bottom: 5px;
+}
+
+.sub-heading {
+  margin-left: 0px;
+  padding: 20px;
+}
+
+.paragraph {
+  margin: 10px;
+  text-indent: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.left {
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+}
+
+.sphere-photo, .sphere-title {
+  margin: 0px;
+  text-align: center;
+  padding: 0px;
+  height: 50%
+}
+
+.sphere-photo {
+	height: 150px;
+	width: auto;
+}
+
+.sphere-desc {
+  border-left: 3px;
+  border-style: solid;
+  border-color: var(--colpal2);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  font-size: 14px;
+  margin: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  letter-spacing: 1.5px;
+}
+
+.model {
+	text-align: center;
+}
+
+.back {
+	margin: 20px;
+	width: 250px;
+	height: 40px;
+}
+
+.b-button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: var(--colpal5);
+  cursor: pointer;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.back:hover .b-button {
+  background-color: var(--colpal1);
+}
+
+#banner2 {
+  height: 70%;
+}
