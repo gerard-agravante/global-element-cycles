@@ -8,6 +8,7 @@
   --colpal3: #ade28a;
   --colpal4: #edfa8b;
   --colpal5: #407056;
+  --colpal6: #f2fbad;
 }
 
 /* HTML ELEMENTS */
@@ -145,6 +146,33 @@ h3 {
   background-color: var(--colpal1);
 }
 
+.model {
+  border-weight: 1px;
+  border-style: solid;
+  border-color: var(--colpal1);
+  margin: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 600px;
+}
+
+.model-col {
+  background: rgb(242,251,173);
+background: linear-gradient(180deg, rgba(242,251,173,0.5998774509803921) 0%, rgba(242,251,173,1) 50%, rgba(242,251,173,0.5998774509803921) 100%);
+  border-weight: 1px;
+  border-style: solid;
+  border-color: var(--colpal1);
+  padding: 0px;
+}
+
 #banner2 {
   height: 70%;
+}
+
+#mc-left {
+  width: 20%;
+}
+
+#mc-right {
+  width: 80%;
 }
